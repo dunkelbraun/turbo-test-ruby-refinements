@@ -55,7 +55,7 @@ describe "TurboTestRubyRefinements::ModuleName" do
     end
 
     it "returns nil when the class has no name" do
-      TestClassA.singleton_class.define_method(:name) { nil }
+      TestClassA.define_singleton_method(:name) { nil }
       assert_nil TestClassA.turbo_test_name
     end
   end
