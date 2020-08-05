@@ -23,3 +23,7 @@ class Minitest::Spec
     FileUtils.rm_rf "tmp"
   end
 end
+
+module Minitest::Spec::DSL
+  alias test it
+end
