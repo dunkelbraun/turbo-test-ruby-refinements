@@ -11,3 +11,4 @@ require_relative "turbo_test_ruby_refinements/hash/leaf_paths"
 
 require_relative "turbo_test_ruby_refinements/module/name"
 require_relative "turbo_test_ruby_refinements/module/class_variable_hash"
+require_relative "turbo_test_ruby_refinements/module/instance_variable_hash"

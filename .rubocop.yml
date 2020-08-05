@@ -41,6 +41,7 @@ Style/Documentation:
 Style/RedundantBegin:
   Exclude:
     - lib/turbo_test_ruby_refinements/module/class_variable_hash.rb
+    - lib/turbo_test_ruby_refinements/module/instance_variable_hash.rb
 
 Style/StringLiterals:
   Enabled: true
