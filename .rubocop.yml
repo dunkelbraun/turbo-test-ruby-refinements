@@ -15,6 +15,10 @@ Layout/LineLength:
   AutoCorrect: false
   Max: 100
 
+Lint/Void:
+  Exclude:
+    - test/object/object_loaded_constants_test.rb
+
 Metrics/BlockLength:
   Exclude:
     - test/**/*_test.rb
