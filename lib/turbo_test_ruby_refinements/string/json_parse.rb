@@ -12,11 +12,9 @@ module TurboTestRubyRefinements
       end
     end
     refine ::NilClass do
-      # rubocop:disable Lint/UnusedMethodArgument
-      def parse_as_json(symbolize_names:)
+      def parse_as_json(*)
         nil
       end
-      # rubocop:enable Lint/UnusedMethodArgument
     end
   end
 end

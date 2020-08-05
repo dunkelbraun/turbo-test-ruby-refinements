@@ -23,6 +23,7 @@ describe "TurboTestRubyRefinements::StringJSONParse" do
   end
 
   it "returns nil when parsing nil as json" do
+    assert_nil nil.parse_as_json
     assert_nil nil.parse_as_json(symbolize_names: true)
   end
 end
