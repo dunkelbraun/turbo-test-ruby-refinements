@@ -31,8 +31,16 @@ Style/ClassAndModuleChildren:
   Exclude:
       - test/**/*
 
+Style/ClassVars:
+  Exclude:
+    - test/module/module_class_variable_hash_test.rb
+
 Style/Documentation:
   Enabled: false
+
+Style/RedundantBegin:
+  Exclude:
+    - lib/turbo_test_ruby_refinements/module/class_variable_hash.rb
 
 Style/StringLiterals:
   Enabled: true

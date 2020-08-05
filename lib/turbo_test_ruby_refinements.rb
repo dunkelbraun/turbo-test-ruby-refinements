@@ -10,3 +10,4 @@ require_relative "turbo_test_ruby_refinements/hash/deep_merge"
 require_relative "turbo_test_ruby_refinements/hash/leaf_paths"
 
 require_relative "turbo_test_ruby_refinements/module/name"
+require_relative "turbo_test_ruby_refinements/module/class_variable_hash"

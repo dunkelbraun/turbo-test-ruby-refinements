@@ -12,6 +12,7 @@ end
 
 require "turbo_test_ruby_refinements"
 require "minitest/autorun"
+require "mocha/minitest"
 require "byebug"
 
 class Minitest::Spec
