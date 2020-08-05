@@ -27,3 +27,5 @@ end
 module Minitest::Spec::DSL
   alias test it
 end
+
+require_relative "test_helpers/define_class"

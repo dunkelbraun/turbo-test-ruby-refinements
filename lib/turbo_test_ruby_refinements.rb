@@ -8,3 +8,5 @@ require_relative "turbo_test_ruby_refinements/string/json_parse"
 
 require_relative "turbo_test_ruby_refinements/hash/deep_merge"
 require_relative "turbo_test_ruby_refinements/hash/leaf_paths"
+
+require_relative "turbo_test_ruby_refinements/module/name"
