@@ -12,3 +12,8 @@ Rake::TestTask.new(:test) do |t|
 end
 
 task default: :test
+
+if ENV["CI"]
+  require 'coveralls/rake/task'
+  Coveralls::RakeTask.new
+end
