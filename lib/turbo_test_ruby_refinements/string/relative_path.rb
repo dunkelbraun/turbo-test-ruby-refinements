@@ -20,14 +20,17 @@ module TurboTestRubyRefinements
     refine ::String do
       def relative_path
         StringRelativePath.fetch(self) do
-          path = Pathname.new(self)
-          return self unless path.exist?
+          return self unless File.exist?(self)
 
-          unless path.relative?
-            path = path.realpath.relative_path_from(StringRelativePath.app_root_path)
-          end
+          path = path_to_relative_path(Pathname.new(self))
           path.cleanpath.to_s
         end
+      end
+
+      def path_to_relative_path(path)
+        return path if path.relative?
+
+        path.realpath.relative_path_from(StringRelativePath.app_root_path)
       end
     end
 
