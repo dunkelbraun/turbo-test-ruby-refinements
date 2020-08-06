@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    turbo-test-ruby-refinements (0.1.0)
+    turbo_test_ruby_refinements (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -46,7 +46,7 @@ DEPENDENCIES
   rake
   rubocop
   simplecov
-  turbo-test-ruby-refinements!
+  turbo_test_ruby_refinements!
 
 BUNDLED WITH
    2.1.4
