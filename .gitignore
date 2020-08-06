@@ -64,12 +64,3 @@ build-iPhoneSimulator/
 /packaged.yaml
 
 .byebug_history
-
-lib/rts/*bundle
-lib/ext/*bundle
-
-ext/rts/Makefile
-/test/support/files/db.sqlite3
-/.turbotest.yml
-/test/support/projects/*/bin
-/test/support/projects/*/Gemfile.lock
