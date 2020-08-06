@@ -1,22 +1,20 @@
 require_relative "lib/turbo_test_ruby_refinements/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "turbo-test-ruby-refinements"
+  spec.name          = "turbo_test_ruby_refinements"
   spec.version       = TurboTestRubyRefinements::VERSION
   spec.authors       = ["Marcos Essindi"]
   spec.email         = ["marcessindi@icloud.com"]
 
-  spec.summary       = "short summary"
-  spec.description   = "longer description"
-  spec.homepage      = "http://example.com"
+  spec.summary       = "Collection of refinements for Ruby classes"
+  spec.homepage      = "https://github.com/dunkelbraun/turbo-test-ruby-refinements"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   #  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  #  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  #  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+   spec.metadata["source_code_uri"] = "https://github.com/dunkelbraun/turbo-test-ruby-refinements"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
