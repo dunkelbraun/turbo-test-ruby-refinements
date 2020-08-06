@@ -18,7 +18,7 @@ module TurboTestRubyRefinements
       # anonymous = class << AClass; class SomeClass; self; end; end
       # anonymous.name
       # => "#<Class:0x00007fd72a1bce30>::SomeClass"
-      # anonymous.turbo_test_original_class
+      # anonymous.turbo_test_name
       # => "AClass::SomeClass"
       def turbo_test_name
         return translated_name unless singleton_class?
