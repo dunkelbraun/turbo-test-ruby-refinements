@@ -1,5 +1,5 @@
 ![Tests](https://github.com/dunkelbraun/turbo-test-ruby-refinements/workflows/Tests/badge.svg?branch=main)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/d84d7949fbabe8712161/maintainability)](https://codeclimate.com/github/dunkelbraun/turbo-test-ruby-refinements/maintainability)
 
 # TurboTestRubyRefinements
 
