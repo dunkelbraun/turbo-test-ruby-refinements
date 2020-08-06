@@ -14,6 +14,6 @@ end
 task default: :test
 
 if ENV["CI"]
-  require 'coveralls/rake/task'
+  require "coveralls/rake/task"
   Coveralls::RakeTask.new
 end
