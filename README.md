@@ -1,3 +1,6 @@
+![Tests](https://github.com/dunkelbraun/turbo-test-ruby-refinements/workflows/Tests/badge.svg?branch=main)
+
+
 # TurboTestRubyRefinements
 
 Collection of refinements for Ruby classes:
