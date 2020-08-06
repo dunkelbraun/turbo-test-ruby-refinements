@@ -8,7 +8,6 @@
 # Automatic variables: http://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_10.html#SEC101
 
 # Rbenv-friendly version identifiers for supported Rubys
-23_version = 2.3.8
 24_version = 2.4.10
 25_version = 2.5.8
 26_version = 2.6.6
@@ -34,7 +33,6 @@ with_given_ruby = RBENV_VERSION=$(given_ruby_version)
 
 # Runs tests for all supported ruby versions.
 test: test-24 test-25 test-26 test-27
-test_23: test-23
 test_24: test-24
 test_25: test-25
 test_26: test-26
